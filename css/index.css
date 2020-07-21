@@ -110,6 +110,10 @@ p {
 	width: 80%;
 }
 
+.item:hover {
+	text-decoration: none;
+}
+
 .title {
 	font-weight: bold;
 	font-size: 17px;
@@ -168,4 +172,7 @@ p {
 
 .button--pay {
 	background-color: #209CEE;
+}
+
+*:hover {
 }

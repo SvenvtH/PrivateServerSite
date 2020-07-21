@@ -1,0 +1,36 @@
+{
+    "games": [
+        {
+            "name": "Ro-Ghoul",
+            "id": 914010731
+        },
+        {
+            "name": "Arsenal",
+            "id": 286090429
+        },
+        {
+            "name": "Jailbreak",
+            "id": 606849621
+        },
+        {
+            "name": "Murder Mystery 2",
+            "id": 142823291
+        },
+        {
+            "name": "Anime Fighting Simulator",
+            "id": 4042427666
+        },
+        {
+            "name": "Lumber Tycoon 2",
+            "id": 13822889
+        },
+        {
+            "name": "A Bizarre Day",
+            "id": 2686500207
+        },
+        {
+            "name": "Stands Online",
+            "id": 2281639237
+        }
+    ]
+}
