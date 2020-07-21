@@ -1,0 +1,46 @@
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.55));
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.invis {
+	background-color: rgba(0,0,0,0)!important;
+}
+
+.nav-active {
+	color: white;
+    border-bottom: 3px rgba(158, 0, 0, 0.8) solid;
+}
+
+.nav-link:hover {
+	color: white;
+    border-bottom: 3px rgb(158, 0, 0, 0.5) solid;
+}
+
+.href-link {
+	color: rgb(214, 64, 64);
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.no-style {
+	list-style-type: none;
+}
+
+.href-link:hover {
+	color: rgb(179, 31, 31);
+	text-decoration: none;
+}
+
+.nav-link {
+	color: white;
+    margin: 0 5px;
+}
+
+.list-group-item.active {
+	background-color: rgb(179, 31, 31);
+	border-color: rgb(179,31,31);
+}
