@@ -3,11 +3,12 @@
 
 <head>
     <title>PrivateServerGang</title>
-    <meta name="description"
-        content="">
+    <meta name="description" content="We provide roblox VIP servers to users to play on.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 </head>
 
@@ -18,7 +19,7 @@
         </div>
 
         <div class="items">
-            <a href="tos" class="item forums">
+            <a class="item forums" data-toggle="modal" data-target="#exampleModal">
                 <div>
                     <img src="./img/gamesIcon.png" alt="Minecraft forums icon" class="img">
                     <p class="subtitle">View the</p>
@@ -42,8 +43,41 @@
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Games</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://www.roblox.com/games/914010731/Ro-Ghoul-ALPHA">Ro-Ghoul</a><br>
+                    <a href="https://www.roblox.com/games/286090429/Arsenal">Arsenal</a><br>
+                    <a href="https://www.roblox.com/games/606849621/NEW-POWER-Jailbreak">Jailbreak</a><br>
+                    <a href="https://www.roblox.com/games/142823291/Murder-Mystery-2">Murder Mystery 2</a><br>
+                    <a href="https://www.roblox.com/games/4042427666/SWORD-STYLES-Anime-Fighting-Simulator">Anime Fighting Simulator</a><br>
+                    <a href="https://www.roblox.com/games/13822889/Lumber-Tycoon-2">Lumber Tycoon 2</a><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <script src="https://shoppy.gg/api/embed.js"></script>
-    <script src="./js/shoppy.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script src="./js/firefly.js" type="text/javascript"></script>
     <script src="./js/main.js" type="text/javascript"></script>
