@@ -178,12 +178,28 @@ p {
 
 /* Shoppy */
 
-.embed--header {
-    background-color: #209CEE;
+.carousel-caption {
+    bottom: 30%;
 }
 
-.button--pay {
-    background-color: #209CEE;
+.card-price {
+    font-size: 3rem;
+    margin-bottom: 50px;
 }
 
-*:hover {}
+.card-title {
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.card-price .period {
+    font-size: 0.8rem;
+}
+
+
+/* EXCPETIONS */
+
+img.exception:hover {
+    filter: none;
+}
